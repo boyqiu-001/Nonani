@@ -129,7 +129,7 @@
                 parentMessageIds: parentIds,
                 experimental_attachments: Array.isArray(template.attachments) ? template.attachments : [],
                 failureReason: null,
-                metadata: null,
+                //metadata: null,
                 participantPosition: template.participantPosition || "a",
                 createdAt: new Date().toISOString(),
                 updatedAt: new Date().toISOString(),
